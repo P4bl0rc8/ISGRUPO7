@@ -1,0 +1,12 @@
+{
+  "name": "SEC4ALL",
+  "description": "Make your security queries",
+  "version": "1.0",
+  "manifest_version": 3,
+"permissions": ["storage","tabs","scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "screen.html",
+    "default_icon": "icon.png"
+  }
+}
